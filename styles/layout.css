@@ -1,0 +1,49 @@
+.center-alignment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: cornflowerblue;
+  height: 3rem;
+}
+
+nav {
+  background-color: goldenrod;
+}
+
+main {
+}
+
+ul {
+}
+
+li {
+  background-color: cornflowerblue;
+}
+
+footer {
+  background-color: slategray;
+}
+
+@media screen and (max-width: 480px) {
+  /** 모바일 세로 */
+}
+
+@media screen and (max-width: 768px) {
+  /** 모바일 가로, 타블렛 세로 */
+}
+
+@media screen and (max-width: 1024px) {
+  /** 타블렛 가로, 노트북 */
+}
+
+@media screen and (max-width: 1280px) {
+  /** 타블렛 가로, 노트북 */
+}
+
+@media screen and (min-width: 1281px) {
+  /** 데스크탑 */
+}
